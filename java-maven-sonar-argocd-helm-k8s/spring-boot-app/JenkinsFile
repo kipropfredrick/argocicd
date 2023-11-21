@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'biwotk/biwotk/v1:latest'
+      image 'biwotk/v1:latest'
       args '--user root -v /var/run/docker.sock:/var/run/docker.sock' // mount Docker socket to access the host's Docker daemon
     }
   }
