@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: biwotk/v1:replaceImageTag
+        image: biwotk/v1:${BUILD_NUMBER}
         ports:
         - containerPort: 8080
