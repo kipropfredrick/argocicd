@@ -14,7 +14,7 @@ public class StartApplication {
     public String index(final Model model) {
         model.addAttribute("title", "I have successfuly built a sprint boot application using Maven");
         model.addAttribute("msg", "This application is deployed on to Kubernetes using Argo CD");
-        model.addAttribute("bodymes", "Welcome home of all spring application.I can now assert that i am ultimately growing my cicd devops skills");
+        model.addAttribute("bodymes", "I can now assert that i am ultimately growing my cicd devops skills");
         model.addAttribute("morla", "hope to be the best in software dev and devops and get high paying job");
         return "index";
     }
