@@ -23,8 +23,8 @@ pipeline {
     }
     stage('Static Code Analysis') {
       environment {
-        SONAR_URL = "http://35.92.43.72:9000"
-                // SONAR_URL = "http://localhost:9000"
+        //SONAR_URL = "http://35.92.43.72:9000"
+        SONAR_URL = "https://c40b-102-68-78-33.ngrok-free.app:9000"
       }
       steps {
         withCredentials([string(credentialsId: 'sonarqube', variable: 'SONAR_AUTH_TOKEN')]) {
