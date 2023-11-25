@@ -12,6 +12,7 @@ Prerequisites:
    -  Kubernetes cluster
    -  Helm package manager
    -  Argo CD
+   -  enabled auto sync in argocd
 
 Steps:
 
